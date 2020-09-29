@@ -5,3 +5,4 @@
   - `distributions.py` contains the code used to fit the data to a given distribution
   - `boostrap.py` contains the code used to generate goodness-of-fit statistics
   - `global_rhythm.ipynb` and `global_melody.ipynb` fit the global distributions to each heavy-tail model and assess goodness-of-fit
+  - `LR-rhythm.ipynb` uses the likelihood ratio test to compare fits to rhythmic distributions rejected by the power-law
