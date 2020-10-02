@@ -2,7 +2,6 @@
 
 - `data` contains the csv files with relative rhythmic and melodic bigram frequencies 
 - `analysis` contains the code used to test for power-law and heavy-tailed behaviour
-  - `distributions.py` contains the code used to fit the data to a given distribution
-  - `boostrap.py` contains the code used to generate goodness-of-fit statistics
-  - `global_rhythm.ipynb` and `global_melody.ipynb` fit the global distributions to each heavy-tail model and assess goodness-of-fit
-  - `LR-rhythm.ipynb` uses the likelihood ratio test to compare fits to rhythmic distributions rejected by the power-law
+  - `bootstrap` contains all bootstrap data for rhythmic and melodic fits
+  - `melody.ipynb` contains the parameter estimates, goodness-of-fit tests and likelihood ratio tests for melodic distributions
+  - `rhythm.ipynb` contains the parameter estimates, goodness-of-fit tests and likelihood ratio tests for rhythmic distributions
