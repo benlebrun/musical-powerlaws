@@ -13,7 +13,13 @@ def kl_divergence(p, q):
 	''' kl divergence '''
 	return np.sum(np.where(p != 0, p*np.log(p/q), 0))
 
-def bootstrap(dist, semi_parametric=True, niter=1e3, set_xmin=False, quiet=False, dest=False, notebook=False):
+def bootstrap(dist, 
+	      semi_parametric=True, 
+	      niter=1e3, 
+	      set_xmin=False, 
+	      quiet=False, dest=False, 
+	      notebook=False):
+	
 	if notebook:
 		from tqdm.notebook import tqdm
 	else:
